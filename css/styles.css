@@ -12,6 +12,15 @@ body {
     background-clip: border-box;
 }
 
+.bg-img01 {
+    padding-bottom: 5rem;
+    padding-top: 12rem;
+    background-size: 400px 200px;
+    background-image: url(../images/planet10.jpg);
+    background-position-y: 40rem;
+    background-size: 90rem;
+    position: static;        
+}
 .navbar-custom {
     color: #FFFFFF;
     background-color: #4a0480!important;
@@ -22,3 +31,4 @@ body {
     display: inline-block;
 
 }
+
