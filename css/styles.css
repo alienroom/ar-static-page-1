@@ -12,15 +12,35 @@ body {
     background-clip: border-box;
 }
 
-.bg-img01 {
-    padding-bottom: 5rem;
-    padding-top: 12rem;
-    background-size: 400px 200px;
-    background-image: url(../images/planet10.jpg);
-    background-position-y: 40rem;
-    background-size: 90rem;
-    position: static;        
+/* .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.bg-carousel {
+    background-color: rgba(2, 2, 2, 0.3);
+    
+}
+    
+.carousel-item {
+      width: 100%;
+      
+} 
+
+.carousel-item img {
+      height: 600px;
+      opacity: 1.0;
+}
+
+
 .navbar-custom {
     color: #FFFFFF;
     background-color: #4a0480!important;
@@ -32,3 +52,22 @@ body {
 
 }
 
+
+
+@media (max-width: 767px) {
+    .jumbotron {
+        padding-top: 3rem;
+        padding-bottom: 3rem;  
+        background-position: center;  
+        width: 100%;
+    }        
+}
+
+@media (max-width: 576px) {
+    .carousel-item{
+        width: 100%;        
+    } 
+    .carousel-item img{
+        height: 350px;
+    }
+}
